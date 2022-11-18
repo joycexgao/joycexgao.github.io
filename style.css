@@ -1,0 +1,49 @@
+
+/* ======= JEFF'S CSS RESET ======= */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+/* ========== MY STYLES ========== */
+
+.project-wrapper{
+  padding: 3rem;
+}
+
+.intro{
+  height:27rem;
+  padding-top: 14rem;
+}
+
+.text-my-own-color {
+  color: #2e2e2e; 
+}
+.text-my-own-color:hover, .text-my-own-color:active {
+  color: #58678b; 
+}
+
