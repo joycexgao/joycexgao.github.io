@@ -33,6 +33,10 @@ table {
 
 .project-wrapper{
   padding: 3rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .intro{
@@ -43,7 +47,17 @@ table {
 .text-my-own-color {
   color: #2e2e2e; 
 }
+
 .text-my-own-color:hover, .text-my-own-color:active {
   color: #58678b; 
 }
+
+.project-card{
+  width: 40%;
+}
+
+/* .project-card:hover{
+  width: 45%;
+  background-color: aqua;
+} */
 
