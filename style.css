@@ -1,3 +1,4 @@
+
 /* ======= JEFF'S CSS RESET ======= */
 
 *,
@@ -24,14 +25,31 @@ table {
   border-spacing: 0;
 }
 
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
 /* ========== MY STYLES ========== */
 
 .project-wrapper{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  padding: 3rem;
 }
 
-.project{
-    width:50%;
+.intro{
+  height:27rem;
+  padding-top: 14rem;
+  font-family: 'Signika Negative', sans-serif;
 }
+
+.mynav {
+  font-family: 'Signika Negative', sans-serif;
+}
+
+.text-my-own-color {
+  color: #2e2e2e; 
+}
+.text-my-own-color:hover, .text-my-own-color:active {
+  color: #58678b; 
+}
+
+
