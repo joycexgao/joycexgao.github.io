@@ -38,11 +38,6 @@ table {
 .intro{
   height:27rem;
   padding-top: 14rem;
-  font-family: 'Signika Negative', sans-serif;
-}
-
-.mynav {
-  font-family: 'Signika Negative', sans-serif;
 }
 
 .text-my-own-color {
@@ -51,5 +46,4 @@ table {
 .text-my-own-color:hover, .text-my-own-color:active {
   color: #58678b; 
 }
-
 
