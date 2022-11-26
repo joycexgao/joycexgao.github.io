@@ -30,6 +30,10 @@ table {
 }
 
 /* ========== MY STYLES ========== */
+.intro{
+  font-family: 'Signika Negative', sans-serif;
+}
+
 
 .project-wrapper{
   padding: 3rem;
@@ -48,12 +52,22 @@ table {
   color: #2e2e2e; 
 }
 
+
 .text-my-own-color:hover, .text-my-own-color:active {
   color: #58678b; 
 }
 
 .project-card{
   width: 40%;
+}
+
+.myNav{
+  height:4rem;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+.sm-card-text{
+  padding: 0;
 }
 
 /* .project-card:hover{
