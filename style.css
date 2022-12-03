@@ -30,22 +30,30 @@ table {
 }
 
 /* ========== MY STYLES ========== */
+html{
+  scroll-behavior: smooth;
+}
+
 .intro{
   font-family: 'Signika Negative', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
 }
 
 
 .project-wrapper{
-  padding: 3rem;
+  padding: 5rem 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .intro{
-  height:27rem;
-  padding-top: 14rem;
+  height:46rem;
+  /* padding-top: 27rem; */
 }
 
 .text-my-own-color {
@@ -59,6 +67,7 @@ table {
 
 .project-card{
   width: 40%;
+  font-family: 'Signika Negative', sans-serif;
 }
 
 .myNav{
