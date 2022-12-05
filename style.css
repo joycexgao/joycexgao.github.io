@@ -56,6 +56,13 @@ html{
   /* padding-top: 27rem; */
 }
 
+.right-nav{
+  padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
 .text-my-own-color {
   color: #2e2e2e; 
 }
