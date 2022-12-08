@@ -69,7 +69,7 @@ html{
 
 
 .text-my-own-color:hover, .text-my-own-color:active {
-  color: #58678b; 
+  color: #113D3C; 
 }
 
 .project-card{
@@ -84,6 +84,21 @@ html{
 
 .sm-card-text{
   padding: 0;
+}
+
+.section-heading{
+  font-family: 'Signika Negative', sans-serif;
+  padding-left: 1.1rem;
+  color: #113D3C;
+}
+
+.myFooter{
+  color:rgb(248, 226, 187); 
+  background-color: black; 
+  margin: 0; 
+  border:0;
+  padding: 0.5rem 1rem;
+  font-family: 'Mukta', sans-serif;
 }
 
 /* .project-card:hover{
