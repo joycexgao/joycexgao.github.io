@@ -34,6 +34,11 @@ html{
   scroll-behavior: smooth;
 }
 
+a:hover {
+  text-decoration: none;
+  color: #072827;
+}
+
 .intro{
   font-family: 'Signika Negative', sans-serif;
   display: flex;
@@ -67,14 +72,11 @@ html{
   color: #2e2e2e; 
 }
 
-
-.text-my-own-color:hover, .text-my-own-color:active {
-  color: #113D3C; 
-}
-
 .project-card{
   width: 40%;
   font-family: 'Signika Negative', sans-serif;
+  transition: transform .2s;
+  padding: 1rem;
 }
 
 .myNav{
@@ -99,11 +101,16 @@ html{
   margin: 0; 
   border:0;
   padding: 0.5rem 1rem;
-  font-family: 'Mukta', sans-serif;
+  font-family: 'Signika Negative', sans-serif;
 }
 
-/* .project-card:hover{
-  width: 45%;
-  background-color: aqua;
-} */
+.project-card:hover{
+  transform: scale(1.02); 
+}
+
+.about-text{
+  font-family: 'Signika Negative', sans-serif;
+}
+
+
 
