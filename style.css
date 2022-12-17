@@ -58,7 +58,7 @@ a:hover {
   grid-template-columns: 1fr  1fr;
 }
 
-.intro{
+.intro .about{
   height:100vh;
 }
 
@@ -120,7 +120,7 @@ a:hover {
   box-shadow: 0 4px 8px 0 rgba(17, 61, 60, 0.2), 0 6px 20px 0 rgba(17, 61, 60, 0.19);
 }
 
-.about-text{
+.about{
   font-family: 'Signika Negative', sans-serif;
 }
 
@@ -130,9 +130,10 @@ a:hover {
   flex-wrap:wrap;
   justify-content: space-around;
   padding: 3rem;
-  padding-top: 7rem;
+  /* padding-top: 7rem;
   padding-bottom: 9rem;
-}
+  */
+} 
 
 .joyce-img{
   border-radius: 50%;
