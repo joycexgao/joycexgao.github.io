@@ -32,6 +32,7 @@ table {
 /* ========== MY STYLES ========== */
 html{
   scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
 }
 
 a{
@@ -80,7 +81,9 @@ a:hover {
   width: 40%;
   font-family: 'Signika Negative', sans-serif;
   transition: transform .2s;
+  transition: box-shadow 0.2s ease-in-out;
   padding: 1rem;
+  margin-top: 1.5rem;
 }
 
 .myNav{
@@ -109,7 +112,8 @@ a:hover {
 }
 
 .project-card:hover{
-  transform: scale(1.02); 
+  transform: scale(1.01); 
+  box-shadow: 0 4px 8px 0 rgba(17, 61, 60, 0.2), 0 6px 20px 0 rgba(17, 61, 60, 0.19);
 }
 
 .about-text{
@@ -119,16 +123,37 @@ a:hover {
 .about-me{
   display: flex;
   flex-direction: row;
+  flex-wrap:wrap;
   justify-content: space-around;
   padding: 3rem;
+  padding-top: 7rem;
   padding-bottom: 9rem;
 }
 
-.frog-about{
+.joyce-img{
+  border-radius: 50%;
+}
+
+.experience{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+#writing-li::before{
+  content: '✍🏼';
+  padding-right: 0.2rem;
+}
+
+#art-li::before{
+  content: '🎨';
+  padding-right: 0.2rem;
+}
+
+.about-link:hover{
+  text-decoration: underline;
+  color: rgb(112, 153, 124);
 }
 
 
