@@ -16,14 +16,34 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
     <link rel="manifest" href="assets/site.webmanifest">
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
 </head>
 
+
 <body>
-    
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top myNav" style="background-color: #072827;">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top myNav" style="background-color: #072827;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Joyce Gao</a>
+      <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav" >
+          <a class="nav-link" aria-current="page" href="#projects" >Works</a>
+          <a class="nav-link" href="assets/joyce_resume.pdf" target="_blank">Resume</a>
+          <a class="nav-link" href="about.html">About</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+    <!-- <nav class="navbar navbar-expand-lg navbar-light sticky-top myNav" style="background-color: #072827;">
         <a class="navbar-brand" href="#" style="color:rgb(248, 226, 187)">Joyce Gao</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
+          <span class="sr-only">Toggle navigation</span>
         </button>
       
         <div class="collapse navbar-collapse right-nav" id="navbarSupportedContent">
@@ -39,21 +59,21 @@
             </li>
           </ul>
         </div>
-      </nav>
+      </nav> -->
 
 
     <div class="container-fluid intro" style="background-color:#113D3C">
-        <img class="card-img-top" style="width:15rem;" src="./assets/frog.png" alt="sketch of a frog">
-        <h1 class="display-4" style="color:wheat; padding-top: 2rem; font-weight: 700;"><b>Hi, I'm Joyce!</b></h1>
-        <p class="lead" style="color:wheat">Philosophy → Cognitive Neuroscience → Design</p>
+        <img class="card-img-top" style="width:27vh;" src="./assets/frog.png" alt="sketch of a frog">
+        <h1 class="hello" style="color:wheat; padding-top: 2rem; font-weight: 700;"><b>Hi, I'm Joyce!</b></h1>
+        <p class="lead" style="font-size:3vh; text-align:center; color:wheat">Philosophy → Cognitive Neuroscience → Design</p>
     </div>
 
-    <div id="projects" class="section-heading" style="background-color: #E8DAB2; padding-top: 3rem; ">
+    <div id="projects" class="section-heading container-fluid" style="background-color: #E8DAB2; padding-top: 3rem; ">
       <h2>Design works</h2>
     </div>
 
-    <div class="project-wrapper" style="background-color: #E8DAB2;">
-      <div class="card-wrapper">
+    <div class="project-wrapper container-fluid row" style="background-color: #E8DAB2;">
+      <div class="container-fluid card-wrapper col-lg-6 col-md-6 col-sm-12">
         <div class="card mb-3 project-card border-white rounded">
             <a class="text-my-own-color" href="https://joycexgao.github.io/Sphere-iterative-design/">
                 <img class="card-img-top" src="./assets/Sphere cover.png" alt="Card image cap">
@@ -62,13 +82,12 @@
                     <h5 class="card-title">Sphere</h5>
                     <p class="card-text">Designing mobile interface for livestream corporate education platform, Sphere</p>
                     <p class="card-text sm-card-text"><small class="text-muted">Iterative Design, User Testing, Prototyping</small></p>
-                    <!-- <p class="card-text sm-card-text"><small class="text-muted">Oct. 2022 - Nov.2022</small></p> -->
                 </div>
             </a>
         </div>
       </div>
 
-      <div class="card-wrapper">
+      <div class="container-fluid card-wrapper  col-lg-6 col-md-6 col-sm-12">
         <div class="card mb-3 project-card border-white rounded">
           <a class="text-my-own-color" href="https://joycexgao.github.io/the-swivel-squatter/">
               <img class="card-img-top" src="./assets/swivel.png" alt="Card image cap">
@@ -82,7 +101,7 @@
         </div>
       </div>
 
-      <div class="card-wrapper">
+      <div class="card-wrapper col-lg-6 col-md-6 col-sm-12">
         <div class="card mb-3 project-card border-white rounded" >
           <a class="text-my-own-color" href="https://joycexgao.github.io/QuickPoses-redesign/">
               <img class="card-img-top" src="./assets/quickposes.png" alt="Card image cap">
@@ -96,13 +115,9 @@
         </div>
       </div>
   </div>
-
-      <!-- <div class="section-heading" style="background-color: #E8DAB2; width: 100%; ">
-        <h2>Writing</h2>
-      </div> -->
-    </div>
     
-    <div class="myFooter">
+    
+    <div class="container-fluid myFooter">
       @Dec 2022 Joyce Gao
     </div>
 </body>

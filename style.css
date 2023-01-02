@@ -36,12 +36,12 @@ html{
 }
 
 a{
-  color:darkseagreen;
+  color:#B4CA9D;
 }
 
 a:hover {
   text-decoration: none;
-  color: #072827;
+  color: rgb(112, 153, 124);
 }
 
 .intro{
@@ -54,12 +54,15 @@ a:hover {
 
 
 .project-wrapper{
-  display: grid;
-  grid-template-columns: 1fr  1fr;
+  margin: 0;
 }
 
 .intro{
   height:100vh;
+}
+
+.hello{
+  font-size: 6vh;
 }
 
 .right-nav{
@@ -70,6 +73,10 @@ a:hover {
 }
 
 .text-my-own-color {
+  color: #2e2e2e; 
+}
+
+.text-my-own-color:hover {
   color: #2e2e2e; 
 }
 
@@ -84,14 +91,31 @@ a:hover {
 
 .card-wrapper{
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-bottom:2rem;
+  padding: 0 0 1rem 0;
 }
 
 .myNav{
-  height:4rem;
   font-family: 'Signika Negative', sans-serif;
+  
+}
+
+.navbar-brand:hover{
+  color: rgb(112, 153, 124);
+}
+
+.nav-link:hover{
+  color: rgb(112, 153, 124);
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #B4CA9D;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8, %3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(180, 202, 107)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .sm-card-text{
@@ -107,8 +131,8 @@ a:hover {
 }
 
 .myFooter{
-  color:rgb(248, 226, 187); 
-  background-color: black; 
+  color:#B4CA9D; 
+  background-color: #072827; 
   margin: 0; 
   border:0;
   padding: 0.5rem 1rem;
@@ -118,6 +142,11 @@ a:hover {
 .project-card:hover{
   transform: scale(1.01); 
   box-shadow: 0 4px 8px 0 rgba(17, 61, 60, 0.2), 0 6px 20px 0 rgba(17, 61, 60, 0.19);
+  color:black;
+}
+
+.card-body:hover{
+  color:black;
 }
 
 .about{
@@ -157,8 +186,8 @@ a:hover {
 }
 
 .about-link:hover{
-  text-decoration: underline;
   color: rgb(112, 153, 124);
 }
+
 
 
