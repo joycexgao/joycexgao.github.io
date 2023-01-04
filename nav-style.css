@@ -11,6 +11,7 @@ color: rgb(112, 153, 124);
 .myNav{
     font-family: 'Signika Negative', sans-serif;
     position: fixed;
+    width: 100%;
   }
   
   .navbar-brand:hover{
