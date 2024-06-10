@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav-style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
@@ -22,24 +23,39 @@
       $(function(){
   $("#nav-placeholder").load("nav.html");
 });
-      </script>
+    </script>
 </head>
 
 
 <body>
-   <!--Navigation bar-->
+   <!-- Navigation bar -->
    <!-- <div id="nav-placeholder">
-   </div> -->
-    
-   <!--end of Navigation bar-->
+  </div> -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top myNav" style="background-color: #072827;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="https://joycexgao.github.io/">Joyce Gao</a>
+      <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav" >
+          <a class="nav-link" aria-current="page" href="https://joycexgao.github.io/#projects" >Works</a>
+          <a class="nav-link" href="https://joycexgao.github.io/assets/joyce_resume.pdf" target="_blank">Resume</a>
+          <a class="nav-link" href="https://joycexgao.github.io/about.html">About</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+   <!-- end of Navigation bar -->
 
 
-    <div class="container-fluid intro" style="background-color:rgb(246, 233, 210)">
-        <img class="card-img-top" style="width:40vh;" src="./assets/oooh upgrade.png" alt="sketch of a frog">
-        <h1 class="hello" style="color:#113D3C; padding-top: 2rem; font-weight: 700;"><b>Please find my updated portfolio <a style="text-decoration: underline; color:#719074;" href="https://joycexgao.com/">here</a>.</b></h1>
+    <div class="container-fluid intro" style="background-color:#113D3C">
+        <img class="card-img-top" style="width:40vh;" src="./assets/frog.png" alt="sketch of a frog">
+        <h1 class="hello" style="color:#E8DAB2; padding-top: 2rem; font-weight: 700;"><b>Hi there! I'm Joyce.</b></h1>
+        <h2 style="font-size: 1rem; color:#E8DAB2; padding-top: 0.3rem; font-weight: 300;"><b>I am a UX Designer at Brown University with a background in Cognitive Neuroscience.</b></h2>
     </div>
 
-    <!-- <div id="projects" class="section-heading container-fluid" style="background-color: #E8DAB2; padding-top: 3rem; ">
+    <div id="projects" class="section-heading container-fluid" style="background-color: #E8DAB2; padding-top: 3rem; ">
       <h2><b>Design works</b></h2>
     </div>
 
@@ -85,11 +101,11 @@
           </a>
         </div>
       </div>
-  </div> -->
+  </div>
     
     
-    <!-- <div class="container-fluid myFooter">
+    <div class="container-fluid myFooter">
       @Dec 2022 Joyce Gao
-    </div> -->
+    </div>
 </body>
 </html>
